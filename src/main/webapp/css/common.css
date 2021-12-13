@@ -1,0 +1,224 @@
+/* ORS Common Message CSS*/
+.errorMsg {
+	color: red;
+	font-family: sans-serif;
+	font-size: 15px;
+	background-color: white;
+	border-color: white;
+	border-bottom: 0px;
+}
+
+.addMsg {
+	color: green;
+	font-family: sans-serif;
+	font-size: 15px;
+}
+
+.updateMsg {
+	color: orange;
+	font-family: sans-serif;
+	font-size: 15px;
+}
+
+.deleteMsg {
+	color: blue;
+	font-family: sans-serif;
+	font-size: 15px;
+}
+
+/* ORS Common Button CSS*/
+.commonSearchButton, .commonDeleteButton, .commonAddButton,
+	.commonPreviousButton, .commonNextButton, .commonSaveAndAddButton,
+	.commonCancelButton, .commonSaveButton, .commonResetButton {
+	background-color: #7cb26e;
+	border: hidden;
+	border-radius: 15px;
+	color: white;
+	/*  padding: 15px 32px; */
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	height: 30px;
+	width: 100px;
+}
+
+.commonDisabledPreviousButton, .commonDisabledNextButton {
+	background-color: #ABEBC6;
+	border: hidden;
+	border-radius: 15px;
+	color: white;
+	/*  padding: 15px 32px; */
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	height: 30px;
+	width: 100px;
+}
+
+/*
+.commonSearchButton,.commonDeleteButton,.commonAddButton:hover {
+	 background-color: #00e600; 
+	
+}
+*/
+.commonSearchButton:hover {
+	background-color: #00e600;
+}
+
+.commonDeleteButton:hover {
+	background-color: #00e600;
+}
+
+.commonAddButton:hover {
+	background-color: #00e600;
+}
+
+.commonPreviousButton:hover {
+	background-color: #00e600;
+}
+
+.commonNextButton:hover {
+	background-color: #00e600;
+}
+
+.commonSaveAndAddButton:hover {
+	background-color: #00e600;
+}
+
+.commonCancelButton:hover {
+	background-color: #00e600;
+}
+
+/* Common Dropdown List CSS */
+.commonDropDownList {
+	background-color: #7cb26e;
+	border-radius: 15px;
+	color: white;
+	font-size: 16px;
+	border: hidden;
+	height: 30px;
+	width: 200px;
+	padding-left: 20px;
+}
+
+.commonDropDownList:hover {
+	background-color: #00e600;
+}
+
+/* ORS Common Error Message Table CSS*/
+table.orsCommonErrorMsgTable td {
+	text-align: left;
+	padding-left: 5px;
+	color: red;
+	font-family: Trebuchet MS;
+	font-weight: bold;
+	height: 45px;
+}
+
+/* ORS Common Record Table CSS*/
+table.orsCommonRecordTable {
+	border-collapse: collapse;
+	/* width: 80%; */
+	font-family: Trebuchet MS;
+}
+
+table.orsCommonRecordTable th {
+	text-align: center;
+	padding: 8px;
+	border: 1px solid black;
+}
+
+table.orsCommonRecordTable td {
+	text-align: center;
+	padding: 8px;
+	border: 1px solid black;
+}
+
+table.orsCommonRecordTable td input {
+	text-align: center;
+	padding: 8px;
+	border: 1px solid black;
+	font-family: Trebuchet MS;
+}
+
+table.orsCommonRecordTable tr:nth-child(even) {
+	background-color: #F8F8FF;
+}
+
+table.orsCommonRecordTable tr:nth-child(odd) {
+	background-color: #FFFAF0;
+}
+
+table.orsCommonRecordTable tr:hover {
+	background-color: #ffe6e6;
+}
+
+/* StudentList Header Table */
+.functionTable {
+	/* border-collapse: collapse;
+	width: 100%;	
+ */
+	display: flex;
+	justify-content: center;
+	padding-left: 150px;
+}
+
+table.functionTable td {
+	/* text-align: center; */
+	font-family: sans-serif;
+	font-size: larger;
+	padding-left: 5px;
+}
+
+td.searchCriteria input {
+	border-radius: 15px;
+	background-color: #7cb26e;
+	height: 30px;
+	width: 200px;
+	font-family: sans-serif;
+	font-size: medium;
+	color: #ffffff;
+	border: hidden;
+}
+
+td.searchCriteria input:hover {
+	background-color: #00e600;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+	color: white;
+	padding-left: 40px
+}
+
+/* Common Message Div */
+.displayMsgDiv {
+	text-align: center;
+	width: 100%;
+	height: 30px
+}
+
+.bottomFunctionDiv {
+	display: flex;
+	justify-content: center;
+}
+
+.ORSHeader {
+	/* float: left;
+	width: 80%; */
+	
+}
+
+.orsHeaderImage {
+	
+	/* width: 100%;	
+	height: 20px;
+	background-image: url('image/raysLogo.png');
+	 background-repeat: no-repeat;
+	background-size: cover; */ 
+}

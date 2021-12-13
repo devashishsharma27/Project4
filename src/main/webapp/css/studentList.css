@@ -1,0 +1,43 @@
+@charset "ISO-8859-1";
+
+/* StudentList Header Table */
+.functionTable {
+	/* border-collapse: collapse;
+	width: 100%;	
+ */
+	display: flex;
+	justify-content: center;
+	padding-left: 150px;
+}
+
+table.functionTable td {
+	/* text-align: center; */
+	font-family: sans-serif;
+	font-size: larger;
+	padding-left: 5px;
+}
+
+td.searchCriteria input {
+	border-radius: 15px;
+	background-color: #7cb26e;
+	height: 30px;
+	width: 200px;
+	font-family: sans-serif;
+	font-size: medium;
+	color: #ffffff;
+	border: hidden;
+}
+
+td.searchCriteria input:hover {
+	background-color: #00e600;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+	color: white;
+	padding-left: 40px
+}
+
+.bottomFunctionDiv {
+	display: flex;
+	justify-content: center;
+}
